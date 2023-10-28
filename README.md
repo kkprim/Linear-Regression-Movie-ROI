@@ -1,5 +1,5 @@
 <div style="text-align: center;" style="border: 2px solid black;">
-    <img src="images/JellyMovieStudio.png" alt="Jelly Movie Project" width="800" height="200">
+    <img src="images/JellyMovieStudio.png" alt="Jelly Movie Project" width="800" height="300">
 </div>
 
 # ROI Analysis: Jelly Movie Studios Original Content
@@ -29,29 +29,29 @@ This project uses descriptive and statistical analyses, along with predictive mo
 
 Concentrating on genres where the quantity of movies is in the 75th percentile of profitability, horror ranks within the top four for highest ROI.
 <div style="text-align: center;" style="border: 2px solid black;">
-    <img src="images/Genre_ROI.png" alt="Bubble Chart" width="800" height="200">
+    <img src="images/Genre_ROI.png" alt="Bubble Chart" width="800" height="400">
 </div>
 
 The budget explains only a small portion (17.9%) of the variance in revenue for horror movies. Therefore, although budget is statistically significant in this model, there are other variables that can influence horror movie revenue.
 
 <div style="text-align: center;" style="border: 2px solid black;">
-    <img src="images/Revenue_Prediction.png" alt="Rev Forecast" width="800" height="200">
+    <img src="images/Revenue_Prediction.png" alt="Rev Forecast" width="800" height="400">
 </div>
 
 The optimal budget range for horror-themed genres within the highest quartile of ROI is between 3M - 11M.
 <div style="text-align: center;" style="border: 2px solid black;">
-    <img src="images/Budgets_ROI.png" alt="Budgets_ROI" width="800" height="200">
+    <img src="images/Budgets_ROI.png" alt="Budgets_ROI" width="800" height="400">
 </div>
 
 In the realm of domestic horror films, Christopher Landon stands out as a writer/director associated with the highest ROI achievers.
 <div style="text-align: center;" style="border: 2px solid black;">
-    <img src="images/People_ROI.png" alt="People ROI" width="800" height="200">
+    <img src="images/People_ROI.png" alt="People ROI" width="800" height="400">
 </div>
 
 ## Conclusions
 This analysis leads to three recommendations for Jelly Movie Studios to consider in maximizing ROI for its new production studio. 
 
-**Horror genres have the highest ROI with an average of 373% where industry standard is between 110-125%.** In a dataset featuring 205 movie genres, our analysis focused on genres with at least six movies to assess Return on Investment (ROI). Notably, horror-related genres emerged as the top performers, boasting an impressive average ROI of 942%. This ROI percentage was calculated by dividing gross earnings by the budget and multiplying the result by 100.
+**Horror genres have the highest ROI with an average of 942% where industry standard is between 110-125%.** In a dataset featuring 205 movie genres, our analysis focused on genres with at least six movies to assess Return on Investment (ROI). Notably, horror-related genres emerged as the top performers, boasting an impressive average ROI of 942%. This ROI percentage was calculated by dividing gross earnings by the budget and multiplying the result by 100.
 
 **The ideal budget stands at $7 million.**To hit the top 25% in ROI for horror-centric genres, the prime budget allocation ranges from $3 million to $11 million.
 
@@ -76,19 +76,33 @@ For technical questions, please contact Namsoo Lee at <a href="mailto:likej1218@
 **Sources**
 <a href="https://www.imdb.com/">IMDb</a>
 <br>
+<br>
 <a href="https://www.the-numbers.com/">The Numbers</a>
+<br>
 <br>
 <a href="https://www.boxofficemojo.com/">Box Office Mojo by IMDbPro</a>
 <br>
+<br>
 <a href="https://www.the-numbers.com/movie/budgets/all">Movie Budgets</a>
 <br>
+<br>
 <a href="https://www.the-numbers.com/market/genres">Top 10 Genres by Revenue</a>
+<br>
 <br>
 <a href="chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.stern.nyu.edu/sites/default/files/assets/documents/uat_024304.pdf">Industry ROI Standards</a>
 
 ## Repository Structure
-├── data
+
 ├── images
+<br>
+├── zippedData
+<br>
+├── .gitignore
+<br>
 ├── README.md
-├── presentation.pdf
-└── movie_studio_ROI_analysis.ipynb
+<br>
+├── master_dataset.csv
+<br>
+├── movie_studio_ROI_analysis.ipynb
+<br>
+└── presentation.pdf
