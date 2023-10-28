@@ -2,7 +2,7 @@
     <img src="images/JellyMovieStudio.png" alt="Jelly Movie Project" width="800" height="300">
 </div>
 
-# ROI Analysis: Jelly Movie Studios Original Content
+# ROI Analysis: Jelly Movie Studios
 
 **Authors**: 
 [Kari Primiano](mailto:kkprim@gmail.com), [Namsoo Lee](mailto:likej1218@gmail.com), [Andrei Hushcha](mailto:andrew.hushcha@gmail.com)
@@ -12,12 +12,12 @@ This project examines the optimization of movie ROI for Jelly Movie Studios, whi
 
 ## Business Understanding
 <div style="text-align: center;" style="border: 2px solid black;">
-    <img src="images/movie_banner.jpeg" alt="Film Projector" width="1000" height="300">
+    <img src="images/movie_banner.jpeg" alt="Film Projector" width="800" height="300">
 </div>
 Jelly Movie Studios may be able to increase the ROI of its new production studio while creating marketable original content and minimizing initial investment expenditures. This will allow Jelly Movie Studios to lay the foundation for audience-growth and a wider content range.
 
 ## Data Understanding
-[IMDb](https://www.imdb.com/), a vast database for movie details, includes datasets of ratings, writers and directors, and other features (e.g. genre). [Box Office Mojo by IMDbPro](https://www.boxofficemojo.com/) links films with their respective box office earnings. And [The Numbers](https://www.the-numbers.com/), another premier provider of movie industry data, provides additional financial information (e.g. budget, top 10 genres by revenue). In these datasets, movie titles serve as unique identifiers, streamlining the correlation of information into our <a href="master_dataset.csv">master dataset</a>. 
+[IMDb](https://www.imdb.com/), a vast database for movie details, includes datasets of ratings, writers and directors, and other features (e.g. genre). [Box Office Mojo by IMDbPro](https://www.boxofficemojo.com/) links films with their respective box office earnings. And [The Numbers](https://www.the-numbers.com/), another premier provider of movie industry data, provides additional financial information (e.g. budget, top 10 genres by revenue). In these datasets, movie titles serve as unique identifiers, streamlining the correlation of information into our <a href="zippedData/master_dataset.csv">master dataset</a>. 
 
 This project faces data limitations, including gaps spanning several years and incomplete sample sets. It lacks specific financials like streaming revenue and comprehensive budget figures, and the merging of fragmented datasets resulted in fewer relevant records.
 
@@ -65,7 +65,7 @@ Further analysis is essential in determining critical drivers and gaining valuab
 - **Sequels:** Explore the strategy of developing films with sequel potential to capitalize on established audiences.
 
 ## Appendix
-The complete analysis can be found in the <a href="zippedData/movie_studio_ROI_analysis.ipynb">Jupyter Notebook</a> and in our <a href="presentation.pdf">presentation</a>.
+The complete analysis can be found in the <a href="movie_studio_ROI_analysis.ipynb">Jupyter Notebook</a> and in our <a href="presentation.pdf">presentation</a>.
 
 For general questions, please contact Kari Primiano at <a href="mailto:kkprim@gmail.com">kkprim@gmail.com</a>.
 <br>
@@ -74,6 +74,7 @@ For presentation or visualizations questions, please contact Andrei Hushcha at <
 For technical questions, please contact Namsoo Lee at <a href="mailto:likej1218@gmail.com">likej1218@gmail.com</a>.
 
 **Sources**
+<br>
 <a href="https://www.imdb.com/">IMDb</a>
 <br>
 <br>
