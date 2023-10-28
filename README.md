@@ -31,18 +31,21 @@ Concentrating on genres where the quantity of movies is in the 75th percentile o
 <div style="text-align: center;" style="border: 2px solid black;">
     <img src="images/Genre_ROI.png" alt="Bubble Chart" width="800" height="400">
 </div>
-
+<br>
+<br>
 The budget explains only a small portion (17.9%) of the variance in revenue for horror movies. Therefore, although budget is statistically significant in this model, there are other variables that can influence horror movie revenue.
 
 <div style="text-align: center;" style="border: 2px solid black;">
     <img src="images/Revenue_Prediction.png" alt="Rev Forecast" width="800" height="400">
 </div>
-
+<br>
+<br>
 The optimal budget range for horror-themed genres within the highest quartile of ROI is between 3M - 11M.
 <div style="text-align: center;" style="border: 2px solid black;">
     <img src="images/Budgets_ROI.png" alt="Budgets_ROI" width="800" height="400">
 </div>
-
+<br>
+<br>
 In the realm of domestic horror films, Christopher Landon stands out as a writer/director associated with the highest ROI achievers.
 <div style="text-align: center;" style="border: 2px solid black;">
     <img src="images/People_ROI.png" alt="People ROI" width="800" height="400">
@@ -53,7 +56,7 @@ This analysis leads to three recommendations for Jelly Movie Studios to consider
 
 **Horror genres have the highest ROI with an average of 942% where industry standard is between 110-125%.** In a dataset featuring 205 movie genres, our analysis focused on genres with at least six movies to assess Return on Investment (ROI). Notably, horror-related genres emerged as the top performers, boasting an impressive average ROI of 942%. This ROI percentage was calculated by dividing gross earnings by the budget and multiplying the result by 100.
 
-**The ideal budget stands at $7 million.**To hit the top 25% in ROI for horror-centric genres, the prime budget allocation ranges from $3 million to $11 million.
+**The ideal budget stands at $7 million.** To hit the top 25% in ROI for horror-centric genres, the prime budget allocation ranges from $3 million to $11 million.
 
 **Collaborate with Christopher Landon.** Known for his versatile achievements as a writer, producer, and director in the horror genre, Christopher Landon promises a high return on investment and audience attraction in the domestic market.
 
@@ -73,8 +76,7 @@ For presentation or visualizations questions, please contact Andrei Hushcha at <
 <br>
 For technical questions, please contact Namsoo Lee at <a href="mailto:likej1218@gmail.com">likej1218@gmail.com</a>.
 
-**Sources**
-<br>
+## Sources
 <a href="https://www.imdb.com/">IMDb</a>
 <br>
 <br>
@@ -90,7 +92,7 @@ For technical questions, please contact Namsoo Lee at <a href="mailto:likej1218@
 <a href="https://www.the-numbers.com/market/genres">Top 10 Genres by Revenue</a>
 <br>
 <br>
-<a href="chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.stern.nyu.edu/sites/default/files/assets/documents/uat_024304.pdf">Industry ROI Standards</a>
+<a href="https://www.stern.nyu.edu/sites/default/files/assets/documents/uat_024304.pdf">Industry ROI Standards</a>
 
 ## Repository Structure
 
