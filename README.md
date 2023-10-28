@@ -65,7 +65,7 @@ Further analysis is essential in determining critical drivers and gaining valuab
 - **Sequels:** Explore the strategy of developing films with sequel potential to capitalize on established audiences.
 
 ## Appendix
-The complete analysis can be found in the <a href="movie_studio_ROI_analysis.ipynb">Jupyter Notebook</a> and in our <a href="presentation.pdf">presentation</a>.
+The complete analysis can be found in the <a href="zippedData/movie_studio_ROI_analysis.ipynb">Jupyter Notebook</a> and in our <a href="presentation.pdf">presentation</a>.
 
 For general questions, please contact Kari Primiano at <a href="mailto:kkprim@gmail.com">kkprim@gmail.com</a>.
 <br>
@@ -100,8 +100,6 @@ For technical questions, please contact Namsoo Lee at <a href="mailto:likej1218@
 ├── .gitignore
 <br>
 ├── README.md
-<br>
-├── master_dataset.csv
 <br>
 ├── movie_studio_ROI_analysis.ipynb
 <br>
